@@ -48,6 +48,7 @@ class ExampleViewModel : ViewModel() {
             //  CONFLATED - объедененный канал, буверизует 1 канал, будет передн самый последний
             //  RENDEZVOUS - по умолчанию
             //  UNLIMITED пропусная способность неограничена
+            // Test commit
             channel = produce (){
                 send(Language.Kotlin)
                 Log.d("sendCoroutinesTest","send Kotlin")
